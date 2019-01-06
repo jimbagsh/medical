@@ -61,7 +61,7 @@
     <div class="jumbotron" style="background-image: url(imgs/med-header.jpg); background-size: cover;">
       <div class="container">
         <h1 style="color: white;">Medical.Anglihel.com</h1>
-        <p style="color: white;">Medical English for Doctors & Nurses</p>
+        <p style="color: white;">Medical English for Doctors, Nurses & Dentists</p>
       </div>
     </div>
 
@@ -93,7 +93,7 @@
 		<div class="col-sm-4">
 			<div class = "panel panel-primary">
    				<div class = "panel-heading">
-      			<h3 class = "panel-title">Doctor-Patient Conversation</h3>
+      			<h3 class = "panel-title">Patient Conversation</h3>
 				</div>
    				<div class = "panel-body">
 					<img src="imgs/DC-cover-CS.jpg" class="img-responsive center-block thumbnail">
@@ -112,11 +112,10 @@
 
 	<h2>About Medical.Anglihel.com</h2>
 	
-	<p>Bridging the gap between the medical knowledge doctors and nurses already have with the English they need to know better.</p>
+	<p>This website tries to bridge the gap between the medical knowledge doctors, nurses and dentists already have with the English they need to know better.</p>
 	<p>'Anatomy & Physiology' is a university level review where we have changed the grammar to help healthcare professionals bridge their knowledge gap. Study from the beginning or just specific chapters. It all helps master medical English.</p>
 	<p>'Medical Terminology' gives more details on medical vocabulary structures and usage.</p>
-	<p>'Doctor-Patient Conversations' gives doctors and nurses real-world examples of how to use their medical English with patients.</p>
-	<p>And below, 'In the News', contains mini medical English lessons using current medical news found on the internet.</p>
+	<p>'Patient Conversations' gives healthcare professionals real-world examples of how to use their medical English with patients.</p>
 
       </div><!-- end of col-lg-8 -->
       
@@ -154,7 +153,7 @@
       <li class="hex">
         <div class="hexIn">
           <div class="hexLink">
-            <img src="imgs/teacher-jim.jpg" alt="" />
+            <img src="imgs/teacher-jim.jpg" alt="Jim Damico" />
             <h1>Jim Damico</h1>
             <p>ESL/EFL Teacher</p>
           </div>
@@ -163,7 +162,7 @@
       <li class="hex">
         <div class="hexIn">
           <div class="hexLink">
-            <img src="imgs/advisor-obi.jpg" alt="" />
+            <img src="imgs/advisor-obi.jpg" alt="Dr Oyunbileg Bavuu" />
             <h1>Dr Oyunbileg Bavuu</h1>
             <p></p>
           </div>
@@ -172,8 +171,17 @@
       <li class="hex">
         <div class="hexIn">
           <div class="hexLink">
-            <img src="imgs/advisor-munk.jpg" alt="" />
+            <img src="imgs/advisor-munk.jpg" alt="Dr Myagmar Munkhnasan" />
             <h1>Dr Myagmar Munkhnasan</h1>
+            <p></p>
+          </div>
+        </div>
+      </li>
+      <li class="hex">
+        <div class="hexIn">
+          <div class="hexLink">
+            <img src="imgs/advisor-ryann.jpg" alt="Ryann Fahrenholz" />
+            <h1>Ryann Fahrenholz</h1>
             <p></p>
           </div>
         </div>
@@ -184,40 +192,6 @@
 
 	</div><!-- end of container -->
 	</div><!-- end of jumbotron -->
-	
-	<div class="container">
-		<div class="stat">
-            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                <div class="milestone-counter" style="text-align:center;">
-                    <img src="imgs/writing.png">
-                    <span class="stat-count highlight">2</span>
-                    <div class="milestone-details">Lessons</div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                <div class="milestone-counter" style="text-align:center;">
-                    <img src="imgs/book.png">
-                    <span class="stat-count highlight">18</span>
-                    <div class="milestone-details">Definitions</div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                <div class="milestone-counter" style="text-align:center;">
-                    <img src="imgs/audio.png">
-                    <span class="stat-count highlight">14</span>
-                    <div class="milestone-details">Audio Words</div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                <div class="milestone-counter" style="text-align:center;">
-                    <img src="imgs/likes.png">
-                    <span class="stat-count highlight">2575</span>
-                    <p class="milestone-details">Followers</p>
-                </div>
-            </div>
-
-		</div><!-- end stat -->
-	</div><!-- end container -->
          
 	<div class="container">
 	    <footer>
@@ -251,28 +225,6 @@
 	<script src="js/owl.carousel.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="js/ie10-viewport-bug-workaround.js"></script>
-    
-    <!-- just some fun code for counting stats -->
-    <script type="text/javascript">
-	(function($) {
-		"use strict";
-		function count($this){
-		var current = parseInt($this.html(), 10);
-		current = current + 1; /* Where 50 is increment */	
-		$this.html(++current);
-			if(current > $this.data('count')){
-				$this.html($this.data('count'));
-			} else {    
-				setTimeout(function(){count($this)}, 50);
-			}
-		}        	
-		$(".stat-count").each(function() {
-		  $(this).data('count', parseInt($(this).html(), 10));
-		  $(this).html('0');
-		  count($(this));
-		});
-   })(jQuery);
-   </script>
-   
+       
   </body>
 </html>
